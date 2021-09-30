@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login | LearnAssist</title>
+    <link rel="icon" type="image/x-icon" href="/myicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/login.css" type="text/css">
+    <link rel="stylesheet" href="CSS/Grid.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="bg-main">
+        <div class="row">
+            <div class="log-form">
+                <div class="title">
+                    <h2>Log In</h2>
+                </div>
+                <form id="con1">
+                    <div class="field">
+                        <input type="name" name="Name" id="name" placeholder="Enter Username" required>
+                        <!-- <label for="name">Username</label> -->
+                    </div>
+                    <div class="field">
+                        <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                        <!-- <label for="password">Password</label> -->
+                    </div>
+                    <!-- <div class="checkbox">
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">Remember me</label>
+                        </div> -->
+                    <div class="error-message">
+
+                    </div>
+                    <div class="log-btn">
+                        <input class="btn" type="button" value="Login" onclick="login()">
+                    </div>
+                    <div class="signup-link">
+                        Not a member? <a href="Signup.html">Signup now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="config.js"></script>
+    <script src="Login.js"></script>
+</body>
+
+</html>

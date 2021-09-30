@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>User History | LearnAssist</title>
+    <link rel="icon" type="image/x-icon" href="/myicon.ico" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/history.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/4414288e8e.js"></script>
+    <script src='js/tesseract.min.js'></script>
+</head>
+
+<body>
+    <nav>
+        <h1>LearnAssist</h1>
+        <ul id="navig" class="list-group list-group-horizontal">
+            <a style="color:white; text-decoration: none;" href="/ocr.html">
+                <li class="btn btn-primary">Home</li>
+            </a>
+            <a style="color:white; text-decoration: none;" href="/">
+                <li class="btn btn-primary">Logout</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <div class="container mt-3">
+            <div>
+                <table class="table" id="result">
+                </table>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/history.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
